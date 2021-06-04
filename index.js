@@ -19,9 +19,11 @@ function createClient(rawConfig, callback) {
     conn.forwardIn(remoteHost, remotePort, function(err, port) {
       if (err) {
         errors.push(err);
-        throw err;
+        // throw err;
+        conn.emit('error', errors);
+      } else {
+        conn.emit('forward-in', port);
       }
-      conn.emit('forward-in', port);
     });
   });
 

@@ -1,5 +1,5 @@
 {
-  "name": "reverse-tunnel-ssh",
+  "name": "@binwus-org/reverse-tunnel-ssh",
   "version": "1.1.0",
   "description": "Easy reverse ssh tunnel ",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/agebrock/reverse-tunnel-ssh.git"
+    "url": "git+ssh://git@github.com/hgarcia-binwus/reverse-tunnel-ssh.git"
   },
   "keywords": [
     "ssh",
@@ -20,9 +20,9 @@
   "author": "christoph.hagenbrock@googlemail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/agebrock/reverse-tunnel-ssh/issues"
+    "url": "https://github.com/hgarcia-binwus/reverse-tunnel-ssh/issues"
   },
-  "homepage": "https://github.com/agebrock/reverse-tunnel-ssh#readme",
+  "homepage": "https://github.com/hgarcia-binwus/reverse-tunnel-ssh#readme",
   "dependencies": {
     "debug": "2.2.0",
     "lodash.defaults": "^4.2.0",
